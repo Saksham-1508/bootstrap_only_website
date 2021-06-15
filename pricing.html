@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Retro Gallery Pricing</title>
+    <style>
+        .btn a
+        {
+            text-decoration: none;
+            color:white;
+        }
+        #bt1 a
+        {
+            color: blue;
+        }
+        #bt1:hover a
+        {
+            color: white;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Go To
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item active" href="pricing.html">Prices</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="gallery.html">See Previous Shoots</a></li>
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Pricing</h1>
+            <p class="fs-5 text-muted">We provide variety of packages so that you get your desired photos at the best
+                price!</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center d-flex justify-content-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Basic</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Rs 100<small
+                                class="text-muted fw-light">/person</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>3 Photographs</li>
+                            <li>In Studio</li>
+                            <li>Portrait Only</li>
+                            <li>Medium Resolution</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary" id="bt1"><a href="checkout.html" >Check Out</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Rs 500<small
+                                class="text-muted fw-light">/person</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>5-7 Photographs</li>
+                            <li>Indoor & Outdoor</li>
+                            <li>Portraits & Fixed Styles</li>
+                            <li>High Resolution</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary"><a href="checkout.html">Check Out</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-white bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Deluxe</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Rs 1200<small
+                                class="text-muted fw-light">/person</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>10-15 Photographs</li>
+                            <li>Indoor & Outdoor</li>
+                            <li>Any Style Desired</li>
+                            <li>4k resolution</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary"><a href="checkout.html">Check Out</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
